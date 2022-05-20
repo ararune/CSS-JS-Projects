@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+:root {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+img {
+    object-fit: cover;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(53, 48, 48, 0.3);
+    overflow: hidden;
+    width: 415px;
+    height: 675px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+    position: relative;
+}
+
+.summary {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10%;
+}
+
+.paragraf {
+    color: gray;
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+}
+
+.plan-box {
+    background-color: #f8f9fe;
+    max-width: 70%;
+    max-height: 45px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    padding: 25px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.plan {
+    display: inline-block;
+    margin-left: -15px;
+    margin-top: -5px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.change-link {
+    display: inline-block;
+    color: rgb(57, 13, 158);
+    margin-left: 65px;
+}
+
+.change-link:active,
+.change-link:hover {
+    display: inline-block;
+    color: rgb(101, 52, 216);
+    margin-left: 65px;
+}
+
+.payment-btn {
+    top: 35px;
+    margin-top: 20px;
+    width: 80%;
+    max-height: 45px;
+    position: relative;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 0;
+
+    align-items: center;
+    padding: 15px;
+    background-color: #382ae1;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-right: 35%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 15px 10px -15px rgb(92, 88, 88);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.payment-btn:hover {
+    background-color: #594bf1;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    top: 45px;
+    margin-top: 20px;
+    width: 80%;
+    max-height: 45px;
+    position: relative;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 0;
+
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    color: rgb(51, 45, 45);
+    margin-left: 10%;
+    margin-right: 35%;
+    margin: auto;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cancel-btn:hover {
+    color: rgb(99, 87, 87);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
