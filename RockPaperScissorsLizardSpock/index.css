@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(207, 19%, 9%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color:#fff;
+    margin: auto;
+}
+h2{
+    color:#fff;
+    margin: auto;
+}
+#choices{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding-top: 25px;
+}
+
+.rock{
+    border-radius: 50%;
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    background-image: url(/images/icon-rock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    font-size: 0;
+    border-width: 16px;
+    border-color: #b43489;
+    transform: rotateY(180deg);
+    display:flex;
+    transition: transform .3s ease;
+}
+.rock:hover{
+    transform: scale(1.2);
+}
+.paper{
+    border-radius: 50%;
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    background-image: url(/images/icon-paper.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    font-size: 0;
+    border-width: 16px;
+    border-color: #45b2cf;
+    transform: rotateY(180deg);
+    display: flex;
+    transition: transform .3s ease;
+}
+.paper:hover{
+    transform: scale(1.2);
+}
+.scissors{
+    border-radius: 50%;
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    background-image: url(/images/icon-scissors.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    font-size: 0;
+    border-width: 16px;
+    border-color: #b43489;
+    transform: rotateY(180deg);
+    display:flex;
+    transition: transform .3s ease;
+    border-color: #d8b53d;
+}
+.scissors:hover{
+    transform: scale(1.2);
+}
+.lizard{
+    border-radius: 50%;
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    background-image: url(/images/icon-lizard.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    font-size: 0;
+    border-width: 16px;
+    border-color: #b43489;
+    transform: rotateY(180deg);
+    display:flex;
+    transition: transform .3s ease;
+    border-color: #3dd85f;
+}
+.lizard:hover{
+    transform: scale(1.2);
+}
+.spock{
+    border-radius: 50%;
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    background-image: url(/images/icon-spock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    font-size: 0;
+    border-width: 16px;
+    border-color: #b43489;
+    transform: rotateY(180deg);
+    display:flex;
+    transition: transform .3s ease;
+    border-color: #3f24db;
+}
+.spock:hover{
+    transform: scale(1.2);
+}
